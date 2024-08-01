@@ -1,0 +1,110 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Monsieur+La+Doulaise&display=swap');
+:root{
+    --color_primario: 
+}
+ *{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+
+
+}
+.header{
+    padding: 2% 0% 0% 15%;
+
+}
+.nav{
+    display: flex;
+    gap: 80px;
+    
+
+}
+.navbottom{
+font-family: "Krona One", sans-serif;
+font: size 24px ;
+font-weight: 600;
+color: #22D4FD;
+text-decoration: none
+
+
+;
+
+
+}
+.titulo{
+    color: aqua;
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 6% 15%;
+    justify-content: space-between;
+}
+.maintexto{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.maintitulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+
+   
+
+}
+.mainparrafo{
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+}
+.mainenlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+.mainbutton{
+    width: 378px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.maintitlebutton{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.mainbutton:hover{
+    background-color: #272727;
+}
+.mainfooter{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
